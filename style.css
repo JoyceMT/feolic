@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.7em;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 0.8em;
+}
+
+p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, p, a {
+  color: #212121;
+}
+
+p, a, small {
+  font-family: 'Ubuntu', sans-serif;
+  color: #8b8b8b;
+}
+
+section {
+  padding: 120px 0 150px 0;
+}
+
+.headText {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.subHead {
+  margin-bottom: 0;
+  line-height: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+button {
+  background: #f77f00;
+  color: white;
+  padding: 12px 33px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #ef634c;
+  transform: all .7s ease;
+}
+
+.grid {
+  display: grid;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===HEADER === */
+header {
+  background: #6e63d9;
+}
+
+/* ===MENU=== */
+menu {
+  height: 40px;
+  padding: 12px 0;
+}
+
+menu .grid {
+  grid-template-columns: auto auto;
+}
+
+menu h2 a {
+  float: left;
+  line-height: 0;
+  color: white;
+}
+
+menu nav {
+  padding-top: 8px;
+}
+
+nav ul {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+  color: white;
+}
+
+nav li a {
+  color: white;
+}
+
+nav li a:hover {
+  color: #f77f00;
+  transition: all .7s ease;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+menu .socialIcons {
+  align-self: center;
+  justify-self: end;
+}
+
+menu .socialIcons img {
+  width: 15px;
+}
+
+menu .socialIcons a {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 11px 8px 11px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+menu .socialIcons .twitter {
+  width: 14px;
+}
+
+/* ===HERO=== */
+
+#hero {
+  margin: auto;
+  width: 100%;
+  max-width: 1400px;
+  overflow: hidden;
+  height: 750px;
+  background-image: url('images/FEOLIC.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+#hero .container {
+  grid-template-columns: auto auto;
+  margin-top: 30px;
+}
+
+#hero .left {
+  width: 450px;
+  align-self: center;
+}
+
+#hero .left h1 {
+  font-size: 4em;
+  line-height: 80px;
+  margin: 25px 0;
+  color: #fff;
+}
+
+#hero .left a {
+  color: #fff;
+}
+
+#hero .left h4 {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#hero .left button {
+  color: #0f0f0f;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+#hero .right {
+  align-self: center;
+}
+
+#hero .right img {
+  width: 510px;
+  background: url('images/Pattern.svg') bottom left no-repeat, url('images/Pattern.svg') top right no-repeat;
+  background-size: 160px;
+  background-origin: padding-box;
+}
+
+/* === SCROLLTOP === */
+
+#scrollTop {
+  text-align: right;
+}
+
+#scrollTop img {
+  width: 25px;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 20;
+  transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transition: all .7s ease;
+}
+
+#scrollTop img:hover {
+  transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transition: all .7s ease;
+}
