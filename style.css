@@ -263,7 +263,7 @@ menu .socialIcons .twitter {
   grid-gap: 1.5rem;
   padding: 70px 40px;
   border-radius: 20px;
-  margin-top: -250;
+  margin-top: -250px;
   -webkit-box-shadow: 2px 2px 58px -23px rgba(0, 0, 0, 1);
   -moz-box-shadow: 2px 2px 58px -23px rgba(0, 0, 0, 1);
   box-shadow: 2px 2px 58px -23px rgba(0, 0, 0, 1);
@@ -355,3 +355,24 @@ menu .socialIcons .twitter {
   background: #f1d8c6;
   padding: 40px 15px;
 }
+
+/* === JUST DO IT === */
+
+.justDoIt {
+    background: #6E63D9;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.justDoIt h1 {
+    width: 500px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+}
+
+.justDoIt h4 {
+    color: #fff;
+}
+
