@@ -359,20 +359,126 @@ menu .socialIcons .twitter {
 /* === JUST DO IT === */
 
 .justDoIt {
-    background: #6E63D9;
-    text-align: center;
-    padding: 80px 0;
+  background: #6E63D9;
+  text-align: center;
+  padding: 80px 0;
 }
 
 .justDoIt h1 {
-    width: 500px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    color: #fff;
+  width: 500px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
 }
 
 .justDoIt h4 {
-    color: #fff;
+  color: #fff;
 }
 
+/* === BLOG === */
+
+#blog {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+#blog .grid {
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: end;
+  vertical-align: bottom;
+  margin-bottom: 50px;
+}
+
+#blog .grid h1 {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+#blog .grid button {
+  background: #dddddd;
+  color: #F77F00;
+}
+
+#blog .boxes ul {
+  display: flex;
+  min-height: 410px;
+  max-height: 410px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+#blog li {
+  flex: 2;
+  display: flex;
+  column-gap: 20px;
+  width: 100%;
+  padding: 30px 0 30px 20px;
+  margin: 0 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 2px 1px 58px -23px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 1px 58px -23px rgba(0, 0, 0, 1);
+  box-shadow: 2px 1px 28px -23px rgba(0, 0, 0, 1);
+}
+
+#blog li:hover {
+  background: #E74C3C;
+}
+
+#blog li.active {
+  flex: 10;
+  background: #fff;
+  cursor: default;
+}
+
+
+/* #blog li.active img {
+        color: #E74C3C;
+    } */
+
+#blog li.active .section-content {
+  flex: 4;
+  opacity: 1;
+  transform: scaleX(1);
+  color: #E74C3C;
+  padding-right: 30px;
+}
+
+#blog li .section-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+#blog li .section-title img {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  width: 250px;
+  border-radius: 10px;
+}
+
+#blog li .section-content {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+  transition: all 0.25s 0.1s ease-out;
+}
