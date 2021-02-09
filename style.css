@@ -302,3 +302,56 @@ menu .socialIcons .twitter {
   padding: 10px;
   border-radius: 50%;
 }
+
+/* === ABOUT ===  */
+
+#about {
+  background: #F6F1ED;
+}
+
+#about .container {
+  grid-template-columns: 35% 40%;
+  justify-content: space-between;
+  grid-gap: 1.5rem;
+}
+
+#about .right img {
+  width: 100%;
+  background: url('images/Pattern2.svg') left 0% top 10% no-repeat, url('images/Pattern2.svg') right 10% bottom 25% no-repeat;
+  background-size: 150px;
+  background-origin: padding-box;
+}
+
+#about .charts {
+  white-space: nowrap;
+}
+
+#about .chart {
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  vertical-align: bottom;
+  border-radius: 5px;
+}
+
+#about .chart1 {
+  background: #EF634C;
+  padding: 35px 15px;
+}
+
+#about .chart2 {
+  background: #6E63D9;
+  padding: 60px 15px;
+}
+
+#about .chart3 {
+  background: #dddddd;
+  padding: 25px 15px;
+}
+
+#about .chart4 {
+  background: #f1d8c6;
+  padding: 40px 15px;
+}
