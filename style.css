@@ -482,3 +482,55 @@ menu .socialIcons .twitter {
   overflow: hidden;
   transition: all 0.25s 0.1s ease-out;
 }
+
+/* === MOREFEATURES === */
+
+.moreFeatures {
+  width: 100%;
+  background: #F6F1ED;
+}
+
+.moreFeatures .container {
+  grid-template-columns: 35% 60%;
+  justify-content: space-between;
+  grid-gap: 1.5rem;
+}
+
+.moreFeatures .right img {
+  width: 100%;
+  background: url('images/Pattern2.svg') left 7% top 10% no-repeat, url('images/Pattern2.svg') right 10% bottom 25% no-repeat;
+  background-size: 150px;
+  background-origin: padding-box;
+}
+
+.moreFeatures .service {
+  margin-bottom: 10px;
+}
+
+.moreFeatures .moreServices {
+  margin-bottom: 30px;
+}
+
+.moreFeatures .moreServices h3 {
+  line-height: 0px;
+}
+
+.moreFeatures .moreServices small {
+  line-height: 25px;
+}
+
+.moreFeatures .moreServices .rightInner {
+  width: 70%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.moreFeatures .moreServices img {
+  width: 40px;
+  float: left;
+  background: #eee;
+  padding: 10px;
+  border-radius: 50%;
+}
+
