@@ -534,3 +534,75 @@ menu .socialIcons .twitter {
   border-radius: 50%;
 }
 
+/* === FAQ === */
+
+.faq {
+  width: 100%;
+}
+
+.faq .container {
+  grid-template-columns: 60% 40%;
+  justify-content: space-between;
+  grid-gap: 3rem;
+  box-sizing: border-box;
+}
+
+.faq .left img {
+  width: 100%;
+}
+
+.faq .right ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.faq li {
+  height: 0px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-bottom: 50px;
+}
+
+.faq li.active {
+  cursor: default;
+  height: 120px;
+}
+
+.faq li.active .section-content {
+  opacity: 1;
+  height: 100%;
+}
+
+.faq li .arrow {
+  display: inline-block;
+  font-size: 16px;
+  color: #0f0f0f;
+}
+
+.faq li.active h3 .arrow {
+  transform: rotate(90deg);
+}
+
+.faq li .section-title {
+  margin: 0;
+  padding: 0;
+}
+
+.faq li .section-title h3 {
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.faq li .section-content {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.25s 0.1s ease-out;
+}
