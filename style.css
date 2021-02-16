@@ -786,3 +786,60 @@ menu .socialIcons .twitter {
 .contact button {
   margin-top: 20px;
 }
+
+/* === NEWS LETTER === */
+
+#subFooter {
+  position: relative;
+}
+
+.newsLetter {
+  background: #E74C3C;
+  padding: 30px 50px;
+  border-radius: 30px;
+  position: absolute;
+  top: -80;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 2px 2px 58px -23px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 58px -23px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 58px -23px rgba(0, 0, 0, 1);
+}
+
+.newsLetter .grid {
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+.newsLetter h1 {
+  line-height: 0;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.newsLetter p {
+  color: #fff;
+  letter-spacing: 1;
+}
+
+.newsLetter form {
+  margin: 0;
+  padding: 0;
+}
+
+.newsLetter input {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #bdbdbd;
+  outline: 0;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.newsLetter button {
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 15px;
+}
