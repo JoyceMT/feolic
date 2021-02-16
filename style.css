@@ -843,3 +843,70 @@ menu .socialIcons .twitter {
   background: rgba(255, 255, 255, 0.1);
   margin-left: 15px;
 }
+
+footer {
+  width: 100%;
+  padding: 180px 0 20px 0;
+  margin: 0;
+  background: #6E63D9;
+  color: #fff;
+}
+
+footer .menu {
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px 0;
+}
+
+footer .logo {
+  width: 250px;
+}
+
+footer h2,
+footer h3 {
+  color: #fff;
+}
+
+footer li,
+footer p,
+footer small,
+footer a {
+  color: #dddddd;
+}
+
+footer .menu h2,
+footer nav h3 {
+  line-height: 0;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer nav ul {
+  padding: 0;
+}
+
+footer .menu li {
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+
+footer nav a {
+  font-size: 14px;
+}
+
+footer .footerBottom {
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: start;
+  padding: 30px 0;
+}
+
+.footerBottom .right .innerLeft {
+  margin-right: 30px;
+}
