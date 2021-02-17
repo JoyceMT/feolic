@@ -1272,3 +1272,31 @@ footer .footerBottom {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  /* === HERO === */
+  #hero {
+      height: 950px;
+      background-position: left 0% bottom 5%;
+  }
+  #hero .container {
+      display: block;
+  }
+  #hero .left {
+      width: 100%;
+  }
+  #hero .right img {
+      width: 100%;
+      margin-top: 50px;
+  }
+  /* === FEATURES === */
+  #features {
+      height: 650px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* === FEATURES === */
+  #features {
+      height: 750px;
+  }
+}
