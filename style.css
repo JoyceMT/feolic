@@ -910,3 +910,16 @@ footer .footerBottom {
 .footerBottom .right .innerLeft {
   margin-right: 30px;
 }
+
+/* === MEDIA QUERIES === */
+
+@media only screen and (max-width: 1200px) {
+  #blog .box3 {
+    display: none;
+  }
+  #blog {
+    width: 90%;
+    margin: auto;
+  }
+}
+
